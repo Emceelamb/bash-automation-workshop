@@ -1,0 +1,32 @@
+#!/bin/bash
+
+# You can implement conditionals in bash 
+# The basic format looks like
+# if [ <test conditions> ]
+# then
+#   <commands>
+# fi
+
+
+echo "How old are you?"
+read age
+
+if [ $age -gt 20 ] 
+then
+    echo "You're old enough to drink! :)"
+else
+    echo "You're not old enough to drink yet! :("
+fi
+
+# Bash operators are different than what you may be used to
+
+
+# Bash operator | Operator | Description
+# ----------------------------------------------------
+# -eq           | ==       | Equal
+# -ne           | !=       | Not equal
+# -gt           | >        | Greater than
+# -ge           | >-       | Greater than or equal to
+# -lt           | <        | Less than
+# -le           | <=       | Less than or equal to
+# -z            | == null  | is null

@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# The first line "#!/.." is a shebang.
+# It tells the shell what kind of file it is
+# Note everything after "#" is a comment
+
+echo Hello, World.

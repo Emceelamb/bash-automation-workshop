@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# Note that '\' is an escape character
+
+echo What\'s your name?
+
+# Read asks for user input and stores it into a variable
+
+read name
+echo Hello, $name.

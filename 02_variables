@@ -1,0 +1,12 @@
+#!/bin/bash
+
+# You set a variable with '=' 
+# Note that there is no space before  or after the '='
+
+world=world
+
+# You can get the variable value with $varname
+
+echo Hello, $world.
+
+

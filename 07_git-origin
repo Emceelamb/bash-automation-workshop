@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# This script streamlines the process of pushing to git
+# Generously adopted from Tania Rascia
+
+read -r -p 'Commit message: ' message # Prompts commit message
+git add .                             # Track all files
+git add -u                            # Tracks deletes
+git commit -m "$message"              # commits with the message
+git push origin master                # push to origin

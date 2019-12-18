@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# Command line arguments are referenced with ${1-9}
+arg=$1
+echo Hello, $arg.
