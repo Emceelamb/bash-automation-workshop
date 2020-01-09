@@ -11,10 +11,10 @@ To automate our computing environment we will learn more about how computers ope
 *This tutorial focuses on the Bash scripting language but the concepts can be applied to any scripting language.*
 
 ## Technical Learning Outcomes
-- Consider mindfulness as a relates to computing
+- Consider mindfulness and its relation to computing
 - Discuss use cases for automation
 - Learn the difference between the Terminal, Command Line, Shell
-- Learn Bash Scripting fundamental
+- Learn Bash Scripting fundamentals
 - Create an executable Bash script
 
 ### A note to participants
