@@ -1,0 +1,21 @@
+#!/bin/bash
+
+truism="$(shuf -n 1 /home/drifter/Documents/practice/bash-automation-workshop/08_welcome-message/truisms)"
+eep=eep
+cols=$( tput cols )
+rows=$( tput lines )
+
+input_length=${#truism}
+
+half_input_length=$(( $input_length / 2 ))
+
+middle_row=$(( $rows/2 ))
+middle_col=$(( ($cols / 2) - $half_input_length ))
+
+tput clear
+
+#tput cup $middle_row $middle_col
+tput bold
+echo $truism
+tput sgr0
+#$tput cup $( tput lines ) 0
