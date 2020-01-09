@@ -36,9 +36,26 @@ The Shell or Shell interpreter is the program that takes command line instructio
 
 [Read more about the differences](https://askubuntu.com/questions/506510/what-is-the-difference-between-terminal-console-shell-and-command-line)
 
-### Configuration
-- Aliases are exist for the session. You can make them permanent by adding them to you .bashrc or .bash\_aliases file
-- you can add a bin folder so you can run the scripts globally
+### Your First Bash Script
+1. In your terminal navigate to your home directory: `cd ~`
+2. Create a folder for your scripts titled `bin`: `mkdir bin`
+3. Navigate to the newly created folder: `cd bin`
+4. Create a file and name it 'hello-world': `touch hello-world`
+5. Open the newly created file in a text editor
+6. On the First line enter the shebang line: `#!/usr/bin/env bash`
+7. On the following line type in: `echo Hello World`
+8. Close and save the file
+9. Mark the script file as executable: `sudo chmod +x hello-world`
+10. Execute the script with: `./hello-world`
+
+The script script should look like:
+```bash
+# hello-world
+
+#!/usr/bin/env bash
+
+echo Hello World
+```
 
 ## Useful cli tools
 
