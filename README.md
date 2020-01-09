@@ -62,7 +62,7 @@ The Shell or Shell interpretor is the program that takes command line instructio
 | `exit`                    | exits bash                                                         |
 
 ## Bash Quick Tips
-'''bash
+```bash
 #!/usr/bin/env bash #Shebang tells environment to use
 
 # Variables
@@ -99,7 +99,7 @@ done
 # Welcome 4
 # Welcome 5
 
-'''
+```
 
 ### References
 - [Bash Scripting Cheat Sheet](https://devhints.io/bash)
