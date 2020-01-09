@@ -32,7 +32,7 @@ The terminal our case refers to programs called terminal emulators. These termin
 
 The command line refers to the textual interface. There are many  command line interface (CLI) programs that can be operated through a terminal only. These programs are typically less resource intensive than their GUI counterparts.
 
-The Shell or Shell interpretor is the program that takes command line instructions in the terminal and sends it to the terminal. Bash or Bourne Again SHell isa Unix shell and command language for the GNU project. It is one of the most popular default shells, but there are other shell variants out there you may be interested in such as: Zsh, DASH, PowerShell, etc.
+The Shell or Shell interpreter is the program that takes command line instructions in the terminal and sends it to the terminal. Bash or Bourne Again SHell isa Unix shell and command language for the GNU project. It is one of the most popular default shells, but there are other shell variants out there you may be interested in such as: Zsh, DASH, PowerShell, etc.
 
 [Read more about the differences](https://askubuntu.com/questions/506510/what-is-the-difference-between-terminal-console-shell-and-command-line)
 
@@ -63,7 +63,10 @@ The Shell or Shell interpretor is the program that takes command line instructio
 
 ## Bash Quick Tips
 ```bash
-#!/usr/bin/env bash #Shebang tells environment to use
+#!/usr/bin/env bash 
+#Shebang tells shell interpreter what environment to use
+
+# This is a comment
 
 # Variables
 NAME="MARK"
