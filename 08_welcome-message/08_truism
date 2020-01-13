@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 truism="$(shuf -n 1 /home/drifter/Documents/practice/bash-automation-workshop/08_welcome-message/truisms)"
 eep=eep
