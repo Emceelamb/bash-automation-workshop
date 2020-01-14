@@ -1,0 +1,40 @@
+#!/bin/bash
+
+# tput command allows you to control cursor 
+# More tput settings: https://linux.101hacks.com/ps1-examples/prompt-color-using-tput/
+
+# Get column, row lengths of terminal
+cols=$( tput cols )
+rows=$( tput lines )
+
+# Store msg in variable
+
+message=$@
+
+# Get length of message and find center
+input_length=${#message}
+half_input_length=$(( $input_length / 2 ))
+
+# Get center of terminal
+middle_row=$(( $rows / 2 ))
+middle_col=$(( ($cols / 2)  - $half_input_length))
+
+# Clear terminal
+
+tput clear
+
+# Move cursor to center of terminal
+tput cup $middle_row $middle_col
+
+# Make text bold
+tput bold
+
+tput rev
+# Print message
+echo $@
+
+# Turn off formatting
+tput sgr0
+
+# Move cursor to bottom and column 0
+tput cup $( tput lines ) 0
