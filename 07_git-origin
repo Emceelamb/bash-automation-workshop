@@ -2,6 +2,7 @@
 
 # This script streamlines the process of pushing to git
 # Generously adopted from Tania Rascia
+# For a more complex version: https://github.com/Emceelamb/config-files/blob/master/sh/git-origin
 
 read -r -p 'Commit message: ' message # Prompts commit message
 git add .                             # Track all files
