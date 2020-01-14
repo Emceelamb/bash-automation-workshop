@@ -4,9 +4,11 @@
 
 In the hyper-computerized  world we are spending more and more time in front of the computer with less time to reflect on our actions. Many disconnectionists and luddites propose spending more time away from the screen in a digital detoxification. As technologists we can achieve this (while increasing our productivity) by automating our computing tasks and unburden ourselves with our mental workload in order to be more present aware at our tasks at hand.
 
-To automate our computing environment we will learn more about how computers operate at a lower level while gaining comfortability with a textual interface. If you find yourself frequently performing repetitive tasks you can take the time to write an automation script. In the process you'll learn to think more algorithmically about the tasks and free yourself to be more present while computing.
+To automate our computing environment we will learn more about how computers operate at a low level while gaining comfortability with a textual interface. If you find yourself frequently performing repetitive tasks you can take the time to write an automation script. In the process you'll learn to think more algorithmically about the tasks and free yourself to be more present while computing and less hindered by act of computing.
 
 > Automation is the technology by which a process or procedure is performed with minimal human assistance. - Wikipedia
+
+*Knowledge of CLI is not required but it would be helpful when creating tasks*
 
 *This tutorial focuses on the Bash scripting language but the concepts can be applied to any scripting language.*
 
