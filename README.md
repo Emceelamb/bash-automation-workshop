@@ -20,6 +20,15 @@ To automate our computing environment we will learn more about how computers ope
 - Create an executable Bash script
 - Learn the difference between the Terminal, Command Line, Shell 
 
+## Workshop Schedule
+- Breathing Exercise
+- Introduction
+- Discussion on mindfulness, technology, and automation
+- Lesson on GNU Bash 
+- Guided scripting exercises
+- Make your own welcome screen
+- Wrap up
+
 ### A note to participants
 This workshop will utilize Bash, one of the most prevalent shell interpreters in the world. If you are using a Unix-like computer it probably has Bash - it comes as the default shell interpreter for MacOS and most distributions of Linux. If you have a Windows OS that's OKAY! Ubuntu Terminal can be installed as a [Windows 10 App](https://www.microsoft.com/en-us/p/ubuntu/9nblggh4msv6?activetab=pivot:overviewtab) without the need to dual boot.
 
