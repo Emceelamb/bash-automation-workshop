@@ -13,6 +13,7 @@ To automate our computing environment we will learn more about how computers ope
 *This tutorial focuses on the Bash scripting language but the concepts can be applied to any scripting language.*
 
 [Presentation slides](https://docs.google.com/presentation/d/1CA3az15TlhXbYIWF7MYpe-86yN7IhVPKrrSmYkAq8O0/edit?usp=sharing "Google Slides")
+
 [Workshop feedback form](https://forms.gle/ah98V5dmRq6JVsGk7 "Google form")
 
 ## Technical Learning Outcomes
