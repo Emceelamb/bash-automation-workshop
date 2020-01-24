@@ -1,8 +1,0 @@
-#!/bin/sh
-
-truism="$(shuf -n 1 /home/drifter/Documents/practice/bash-automation-workshop/08_welcome-message/truisms)"
-tput clear
-
-tput bold
-echo $truism
-tput sgr0

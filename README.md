@@ -2,7 +2,7 @@
 
 >  Mindfulness is the basic human ability to be fully present, aware of where we are and what we’re doing, and not overly reactive or overwhelmed by what’s going on around us.
 
-In the hyper-computerized  world we are spending more and more time in front of the computer with less time to reflect on our actions. Many disconnectionists and luddites propose spending more time away from the screen in a digital detoxification. As technologists we can achieve this (while increasing our productivity) by automating our computing tasks and unburden ourselves with our mental workload in order to be more present aware at our tasks at hand.
+In the hyper-computerized  world we are spending more and more time in front of the computer with less time to reflect on our actions. Many disconnectionists and Luddites propose spending more time away from the screen in a digital detoxification. As technologists we can achieve this (while increasing our productivity) by automating our computing tasks and unburden ourselves with our mental workload in order to be more present aware at our tasks at hand.
 
 To automate our computing environment we will learn more about how computers operate at a low level while gaining comfortability with a textual interface. If you find yourself frequently performing repetitive tasks you can take the time to write an automation script. In the process you'll learn to think more algorithmically about the tasks and free yourself to be more present while computing and less hindered by act of computing.
 
@@ -11,6 +11,9 @@ To automate our computing environment we will learn more about how computers ope
 *Knowledge of CLI is not required but it would be helpful when creating tasks*
 
 *This tutorial focuses on the Bash scripting language but the concepts can be applied to any scripting language.*
+
+[Presentation slides](https://docs.google.com/presentation/d/1CA3az15TlhXbYIWF7MYpe-86yN7IhVPKrrSmYkAq8O0/edit?usp=sharing "Google Slides")
+[Workshop feedback form](https://forms.gle/ah98V5dmRq6JVsGk7 "Google form")
 
 ## Technical Learning Outcomes
 - Consider mindfulness and its relation to computing
@@ -24,7 +27,7 @@ To automate our computing environment we will learn more about how computers ope
 - Breathing Exercise
 - Introduction
 - Discussion on mindfulness, technology, and automation
-- Lesson on GNU Bash 
+- Presentation
 - Guided scripting exercises
 - Make your own welcome screen
 - Wrap up
@@ -44,7 +47,7 @@ The terminal our case refers to programs called terminal emulators. These termin
 
 The command line refers to the textual interface. There are many  command line interface (CLI) programs that can be operated through a terminal only. These programs are typically less resource intensive than their GUI counterparts.
 
-The Shell or Shell interpreter is the program that takes command line instructions in the terminal and sends it to the terminal. Bash or Bourne Again SHell isa Unix shell and command language for the GNU project. It is one of the most popular default shells, but there are other shell variants out there you may be interested in such as: Zsh, DASH, PowerShell, etc.
+The Shell or Shell interpreter is the program that takes command line instructions in the terminal and sends it to the terminal. Bash or Bourne Again SHell is a Unix shell and command language for the GNU project. It is one of the most popular default shells, but there are other shell variants out there you may be interested in such as: Zsh, DASH, PowerShell, etc.
 
 [Read more about the differences](https://askubuntu.com/questions/506510/what-is-the-difference-between-terminal-console-shell-and-command-line)
 
@@ -137,3 +140,4 @@ done
 - [Bash Scripting Cheat Sheet](https://devhints.io/bash)
 - [Terminal, Console, Shell Differences](https://askubuntu.com/questions/506510/what-is-the-difference-between-terminal-console-shell-and-command-line)
 - [How to Create and Use Bash Scripts by Tania Rascia](https://www.taniarascia.com/how-to-create-and-use-bash-scripts/)
+- [In depth Bash scripting tutorial](https://ryanstutorials.net/bash-scripting-tutorial/bash-loops.php#introduction)

@@ -1,0 +1,17 @@
+#!/bin/bash
+
+# This script will make a temporary bookmark for working directory
+
+# Aliases are shortcuts for commands
+# gtw stands for 'go to working'
+alias gtw='cd $working_dir'
+
+# Functions work similarly to standalone scripts.
+# They should mostly be used for one off scripts as they can't return values to for other programs
+
+# Book mark your working directory
+wd(){
+  working_dir=$(pwd)
+  echo Your working directory is $working_dir
+}
+
