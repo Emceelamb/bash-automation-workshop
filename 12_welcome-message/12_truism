@@ -1,8 +1,9 @@
 #!/bin/sh
 
 truism="$(shuf -n 1 /home/drifter/Documents/practice/bash-automation-workshop/12_welcome-message/truisms)"
-tput clear
+
+#tput clear
 
 tput bold
-echo $truism
+echo $truism | cowsay -f $(ls /usr/share/cows | shuf -n 1)
 tput sgr0
