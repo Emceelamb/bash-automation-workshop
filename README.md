@@ -2,10 +2,9 @@
 
 >  Mindfulness is the basic human ability to be fully present, aware of where we are and what we’re doing, and not overly reactive or overwhelmed by what’s going on around us.
 
-In the hyper-computerized  world we are spending more and more time in front of the computer with less time to reflect on our actions. Many disconnectionists and Luddites propose spending more time away from the screen in a digital detoxification. As technologists we can achieve this (while increasing our productivity) by automating our computing tasks and unburden ourselves with our mental workload in order to be more present aware at our tasks at hand.
+In the hyper-computerized world we are spending more and more time in front of the computer and have less time to reflect on our technologically mediated actions. Many disconnectionists and Luddites propose spending more time away from the screen in a digital detox. As technologists we can decrease our screentime increasing our productivity by automating our computing tasks. In doing so we reduce our mental workload in order to be more present aware of our tasks at hand.
 
-To automate our computing environment we will learn more about how computers operate at a low level while gaining comfortability with a textual interface. If you find yourself frequently performing repetitive tasks you can take the time to write an automation script. In the process you'll learn to think more algorithmically about the tasks and free yourself to be more present while computing and less hindered by act of computing.
-
+Through learning skills in automating tasks we will learn more about how computers operate at a low level, while becoming more comfortable working in a textual interface.  By developing scripts to automate repetitive tasks you'll learn to think more algorithmically about computing  and free yourself to be more present and less hindered by act of computing.
 > Automation is the technology by which a process or procedure is performed with minimal human assistance. - Wikipedia
 
 *Knowledge of CLI is not required but it would be helpful when creating tasks*
