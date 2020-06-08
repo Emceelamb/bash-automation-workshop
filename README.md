@@ -142,4 +142,3 @@ done
 - [How to Create and Use Bash Scripts by Tania Rascia](https://www.taniarascia.com/how-to-create-and-use-bash-scripts/)
 - [In depth Bash scripting tutorial](https://ryanstutorials.net/bash-scripting-tutorial/bash-loops.php#introduction)
 
-hi
